@@ -1,3 +1,8 @@
 dotenv
 google-generativeai
 openai
+langchain
+langchain-openai
+langgraph
+langchain-community
+faiss-cpu
