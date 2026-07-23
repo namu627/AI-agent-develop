@@ -1,0 +1,56 @@
+[테크노바 기술 스택 및 개발 환경 안내]
+
+■ 백엔드
+- 주 언어: Python 3.11, 일부 레거시 서비스는 Java 11
+- 프레임워크: Django 5.x (기존 모놀리식), FastAPI (신규 마이크로서비스)
+- 데이터베이스: PostgreSQL 16 (주 DB), Redis 7 (캐시 및 세션), MongoDB (센서 로그 저장)
+- 메시지 큐: Apache Kafka (생산 설비 이벤트 스트림 처리)
+- ORM: Django ORM, SQLAlchemy
+- 테스트: pytest, coverage 기준 70% 이상 유지
+
+■ 프론트엔드
+- React 18, TypeScript
+- 상태 관리: Zustand
+- 스타일링: Tailwind CSS
+- 차트/시각화: Recharts, D3.js (복잡한 공정 흐름도)
+- 빌드: Vite
+
+■ AI / 데이터
+- LLM 활용: OpenAI API (gpt-4o, gpt-4o-mini), 사내 문서 검색용 RAG 파이프라인
+- 프레임워크: LangChain, LangGraph
+- 벡터 DB: FAISS (프로토타입), Qdrant (프로덕션)
+- 임베딩 모델: text-embedding-3-small, 한국어 문서는 ko-sroberta 계열 병행 검토
+- 실험 관리: LangSmith, MLflow
+- 데이터 파이프라인: Apache Airflow
+
+■ 인프라 및 DevOps
+- 클라우드: AWS (EC2, RDS, S3, ECS Fargate, Lambda)
+- 컨테이너: Docker, Kubernetes (EKS)
+- IaC: Terraform
+- CI/CD: GitHub Actions
+- 모니터링: Datadog, Sentry
+- 로깅: OpenSearch
+
+■ 협업 도구
+- 코드 저장소: GitHub (private organization)
+- 이슈 관리: Linear
+- 문서: Notion
+- 커뮤니케이션: Slack
+- 디자인: Figma
+
+■ 개발 프로세스
+- 브랜치 전략: GitHub Flow (main 브랜치 + feature 브랜치)
+- 배포 주기: 스테이징 상시 배포, 프로덕션 주 2회 정기 배포 (화/목)
+- 코드 스타일: Python은 ruff + black, TypeScript는 ESLint + Prettier, pre-commit 훅으로 강제
+- 장애 대응: 온콜 로테이션은 백엔드 팀 내 주 단위 순환, 심각도 P1 장애는 30분 이내 대응
+
+■ 현재 진행 중인 주요 기술 과제
+1. 모놀리식 Django 애플리케이션의 점진적 MSA 전환 (2025년 착수, 2027년 완료 목표)
+2. 실시간 설비 이상 탐지 모델 프로덕션 배포
+3. 사내 지식 검색 어시스턴트 고도화 (RAG 정확도 개선, 출처 표기 강화)
+4. 멀티 테넌트 아키텍처 개선을 통한 대형 고객사 온보딩 시간 단축
+
+■ 신규 입사자 개발 환경 세팅
+- 지급 장비: MacBook Pro 14인치 (M3 Pro, 36GB) 또는 동급 Windows 노트북 선택
+- 외부 모니터 27인치 1대, 키보드/마우스 자유 선택 (30만 원 한도)
+- 로컬 개발 환경은 Docker Compose로 일괄 구성되며 온보딩 문서에 따라 반나절 내 세팅 가능
