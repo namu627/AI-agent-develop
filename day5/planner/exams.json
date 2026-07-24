@@ -1,0 +1,32 @@
+[
+  {
+    "name": "sqld",
+    "subject": "sqld",
+    "exam_date": "2026-07-24"
+  },
+  {
+    "name": "팀프로젝트",
+    "subject": "ml",
+    "exam_date": "2026-07-25"
+  },
+  {
+    "name": "aws",
+    "subject": "aws",
+    "exam_date": "2026-07-26"
+  },
+  {
+    "name": "토익",
+    "subject": "토익",
+    "exam_date": "2026-08-23"
+  },
+  {
+    "name": "정처기 실기",
+    "subject": "정보처리기사",
+    "exam_date": "2026-09-01"
+  },
+  {
+    "name": "중간고사",
+    "subject": "컴퓨터",
+    "exam_date": "2026-10-19"
+  }
+]

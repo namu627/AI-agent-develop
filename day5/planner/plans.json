@@ -1,0 +1,135 @@
+[
+  {
+    "date": "2026-07-21",
+    "exam_name": "sqld",
+    "subject": "sqld",
+    "topic": "기초 개념 복습",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-07-21",
+    "exam_name": "sqld",
+    "subject": "sqld",
+    "topic": "실습 문제 풀이",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-07-22",
+    "exam_name": "sqld",
+    "subject": "sqld",
+    "topic": "모의고사",
+    "hours": 3.0
+  },
+  {
+    "date": "2026-07-23",
+    "exam_name": "sqld",
+    "subject": "sqld",
+    "topic": "최종 복습",
+    "hours": 2.0
+  },
+  {
+    "date": "2026-07-23",
+    "exam_name": "팀프로젝트",
+    "subject": "ml",
+    "topic": "프로젝트 개요",
+    "hours": 1.0
+  },
+  {
+    "date": "2026-07-24",
+    "exam_name": "팀프로젝트",
+    "subject": "ml",
+    "topic": "팀 회의 준비",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-07-24",
+    "exam_name": "aws",
+    "subject": "aws",
+    "topic": "기초 개념 복습",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-07-25",
+    "exam_name": "aws",
+    "subject": "aws",
+    "topic": "실습 문제 풀이",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-07-25",
+    "exam_name": "토익",
+    "subject": "토익",
+    "topic": "어휘 및 문법",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-07-26",
+    "exam_name": "토익",
+    "subject": "토익",
+    "topic": "모의고사",
+    "hours": 3.0
+  },
+  {
+    "date": "2026-08-01",
+    "exam_name": "정처기 실기",
+    "subject": "정보처리기사",
+    "topic": "기초 개념 복습",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-08-01",
+    "exam_name": "정처기 실기",
+    "subject": "정보처리기사",
+    "topic": "실습 문제 풀이",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-08-02",
+    "exam_name": "정처기 실기",
+    "subject": "정보처리기사",
+    "topic": "모의고사",
+    "hours": 3.0
+  },
+  {
+    "date": "2026-08-03",
+    "exam_name": "정처기 실기",
+    "subject": "정보처리기사",
+    "topic": "최종 복습",
+    "hours": 2.0
+  },
+  {
+    "date": "2026-08-03",
+    "exam_name": "중간고사",
+    "subject": "컴퓨터",
+    "topic": "기초 개념 복습",
+    "hours": 1.0
+  },
+  {
+    "date": "2026-08-04",
+    "exam_name": "중간고사",
+    "subject": "컴퓨터",
+    "topic": "실습 문제 풀이",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-08-04",
+    "exam_name": "중간고사",
+    "subject": "컴퓨터",
+    "topic": "모의고사",
+    "hours": 1.5
+  },
+  {
+    "date": "2026-08-05",
+    "exam_name": "중간고사",
+    "subject": "컴퓨터",
+    "topic": "최종 복습",
+    "hours": 2.0
+  },
+  {
+    "date": "2026-08-05",
+    "exam_name": "중간고사",
+    "subject": "컴퓨터",
+    "topic": "모의고사",
+    "hours": 1.0
+  }
+]
